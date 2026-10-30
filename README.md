@@ -13,13 +13,12 @@ Repository currently under active organization and will be updated progressively
 ## Citation
 
 ```bibtex
-
 @article{kousar2026dosebench,
-  title={Can I Take Another Dose? Evaluating LLM Decision-Making Under Temporal Uncertainty in OTC Dosing},
-  author={Kousar, Maroof and Hu, Yibo},
+  title={Can I Take Another Dose? DoseBench: Evaluating LLM Decision-Making in OTC Dosing QA},
+  author={Kousar, Maroof and Han, Jinsung and Chandra, Mohit and De Choudhury, Munmun and Hu, Yibo},
   journal={arXiv preprint arXiv:2606.04262},
-  year={2026}
-
+  year={2026},
+  url={https://arxiv.org/abs/2606.04262}
 }
 
 ```
