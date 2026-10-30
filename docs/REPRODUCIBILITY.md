@@ -48,7 +48,3 @@ API-model runners and token-probe generation are outside this first release. The
 ## Environment
 
 The analysis was checked with Python 3.12.14, NumPy 2.3.5, and Matplotlib 3.10.8. `requirements.txt` pins the plotting libraries. The evaluator uses the Python standard library only. Install a suitable PyTorch build, Transformers, and Accelerate separately only if running new model generations.
-
-## Deferred baseline implementation
-
-The supplied extractor comments describe some elements as adopted as-is from medExtractR. Its [upstream package description](https://github.com/cran/medExtractR/blob/master/DESCRIPTION) specifies GPL (>= 2). The supplied notes do not establish which code, if any, was copied. To avoid presenting this implementation under the repository's MIT license without resolving that provenance, the first release includes only its numerical decisions, summary, and structured rules. The original implementation remains in the private preparation files.
