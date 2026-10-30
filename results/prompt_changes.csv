@@ -1,0 +1,4 @@
+condition,accuracy_median_pp,accuracy_increased,accuracy_decreased,accuracy_unchanged,far_median_pp,far_increased,far_decreased,far_unchanged,ambiguous_recall_median_pp,ambiguous_recall_increased,ambiguous_recall_decreased,ambiguous_recall_unchanged
+Checklist,-0.2173913043478244,4,4,0,-9.210526315789473,0,8,0,25.0,8,0,0
+Drug Facts,3.69565217391305,8,0,0,0.0,3,3,2,-13.095238095238091,2,6,0
+Both,3.04347826086957,7,1,0,-6.140350877192981,0,7,1,-2.38095238095238,3,5,0
