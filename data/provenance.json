@@ -1,0 +1,394 @@
+{
+  "sources": [
+    {
+      "name": "K-QA",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/Itaykhealth/K-QA",
+      "download_sha256": "8038e1f0a173ffcbf918de3d7161e09d16c6ef77252d54995d0ffe6b07770887"
+    },
+    {
+      "name": "HealthBench",
+      "license": "MIT",
+      "url": "https://huggingface.co/datasets/openai/healthbench",
+      "download_sha256": "e99dd3c6372c10d6fcc5e385c5fae69d0dd40392dae56836ef9493ae324ecd2f"
+    },
+    {
+      "name": "MedicationQA",
+      "license": "CC-BY-4.0",
+      "url": "https://github.com/abachaa/Medication_QA_MedInfo2019",
+      "download_sha256": "4f13d0e3b195bd6a5d72a1872f9118cb5f69fd02c370001695330cfc9e3b5832"
+    },
+    {
+      "name": "MeQSum",
+      "license": "CC-BY-4.0",
+      "url": "https://github.com/abachaa/MeQSum",
+      "download_sha256": "abedd939d5014306ca576522416bf69103e85dc8fcf1668a4099e8b84a39eeea"
+    },
+    {
+      "name": "ExpertQA",
+      "license": "MIT",
+      "url": "https://github.com/chaitanyamalaviya/ExpertQA",
+      "download_sha256": "b5e3070acb1f1df36bd404db720c3961ccd661531886ecc79d416da85d748ac5"
+    }
+  ],
+  "source_id_conventions": {
+    "K-QA": "Zero-based row in questions.jsonl",
+    "HealthBench": "prompt_id in 2025-05-07-06-14-12_oss_eval.jsonl",
+    "MedicationQA": "Excel row number, including header",
+    "MeQSum": "File field",
+    "ExpertQA": "Zero-based row in data/r2_compiled_anon.jsonl"
+  },
+  "hash_notes": "Source text hashes use UTF-8. HealthBench hashes use json.dumps(prompt, ensure_ascii=False, sort_keys=True). Benchmark hashes use unchanged question text.",
+  "records": [
+    {
+      "case_id": "N-Q001",
+      "source": "HealthBench",
+      "source_item_id": "9fa9b2a3-5c18-4805-9a3d-fd2146d4e722",
+      "source_text_sha256": "7d2d2e149ced06d18630ea32bbdbbd39a695da7cb2b1298335138e7b96e7922a",
+      "benchmark_question_sha256": "d11f2db126d9ad842571899c001623e14b0ecf8cc1483879403d00eacecfe6a1"
+    },
+    {
+      "case_id": "N-Q003",
+      "source": "HealthBench",
+      "source_item_id": "0831091e-6ec3-4415-9b92-04f1da8544e3",
+      "source_text_sha256": "82ee4b3043596ac12d4937d95fe18f8b1702c8d26c3e26759f91a40cd16705d6",
+      "benchmark_question_sha256": "e0535ffe7875aa93c29013fb84fe845ba73d29259eab19d760f0f7b3352b2120"
+    },
+    {
+      "case_id": "N-Q004",
+      "source": "HealthBench",
+      "source_item_id": "f7106569-9044-4e13-9fc3-5375b812135d",
+      "source_text_sha256": "addf95a46d547795a0206514a5d6163381be3606bb2f9f37e981c46ee6ec5f42",
+      "benchmark_question_sha256": "334cea60274543772b95f9408cb579941ae3ed816dce7ab1d159c70f6da625c0"
+    },
+    {
+      "case_id": "N-Q007",
+      "source": "HealthBench",
+      "source_item_id": "0fd83947-81b1-40c6-a99f-436623d6a72d",
+      "source_text_sha256": "35ef387488a8481a8984249534d09a643227c79012c3b7379909ffaf2a342845",
+      "benchmark_question_sha256": "e2099bd605726a333fd71369ad14c0919c8957ee3b0df1406c4718262c3112d7"
+    },
+    {
+      "case_id": "N-Q008",
+      "source": "K-QA",
+      "source_item_id": "152",
+      "source_text_sha256": "3767f2a2af06184cd29e3490c341ab34621cdb9e316ec0534c4ae1f06127a3a4",
+      "benchmark_question_sha256": "bd75ee356c63588a84f4f46fd0df5a2f414c13107d2091d4e52b2f3b53fdba6e"
+    },
+    {
+      "case_id": "N-Q022",
+      "source": "K-QA",
+      "source_item_id": "1175",
+      "source_text_sha256": "a01889ccae10ebff9f7c70039f8a9dee0db4469670ddc9dea05afb5a16855e5d",
+      "benchmark_question_sha256": "19f24b45bee89a4d875a3a19715e29c9b177e0e3dec8572bd22d80a05c99533b"
+    },
+    {
+      "case_id": "N-Q034",
+      "source": "MedicationQA",
+      "source_item_id": "599",
+      "source_text_sha256": "9a5f491505e4e2de41519125b673af0ad2cef9f1b563d60ebea3acbde9caf8ea",
+      "benchmark_question_sha256": "6ff531c05da560cfb1b029db92a2cf046810e4109629d9c60f95b0392a26139e"
+    },
+    {
+      "case_id": "N-Q051",
+      "source": "HealthBench",
+      "source_item_id": "d0b8e1a7-1af7-4c7b-9dcb-7ee1c4b4754a",
+      "source_text_sha256": "530af281104cae79c3102b96a789b34c16c1d3cf521533450cf881b69bf1fd0c",
+      "benchmark_question_sha256": "a970b9a6ef071890e5d40574499c190f1b431bc033132fe74e638148fb11b422"
+    },
+    {
+      "case_id": "N-Q054",
+      "source": "HealthBench",
+      "source_item_id": "81677e94-2d6e-4987-bb53-3b49fae11016",
+      "source_text_sha256": "446e828ef34cc8e352a174a43344a97d6e0d056952e7f4828fceb851ee4c574d",
+      "benchmark_question_sha256": "faf525673c50bb311c6f9d116e7835f4b59a54e941a1216a8df6312237840cdf"
+    },
+    {
+      "case_id": "N-Q055",
+      "source": "HealthBench",
+      "source_item_id": "5df83606-9468-4fc8-833a-ceb8a5b80df2",
+      "source_text_sha256": "2046058067081abd24cc7e36209f39c65bd405499c1704504eb24e653bf411b3",
+      "benchmark_question_sha256": "651765f09381341785ad9db259dd05b9920dcf17b41f7b2d0306a99f43998cc4"
+    },
+    {
+      "case_id": "N-Q056",
+      "source": "HealthBench",
+      "source_item_id": "78cf0eb8-9809-4144-abd4-e04ad662b7f5",
+      "source_text_sha256": "97871b62d376459ac4b204e398eb7a1fb240fdafcf3c36d30d89752660b2aa08",
+      "benchmark_question_sha256": "ce27109c2c52d7433df659fcca5e4516095238883bdcde17c2221b9030d1a688"
+    },
+    {
+      "case_id": "N-Q057",
+      "source": "HealthBench",
+      "source_item_id": "5b15bfcf-10cb-46c7-b1a3-ee0bde256cc5",
+      "source_text_sha256": "37264a8adca926d53b76706b714494eed75f9f90d6d8d50a8802f38d742adcaf",
+      "benchmark_question_sha256": "23d425ca3281a97b35fc5b4475192c305bed37a91b5f57a3d6dd095e9ccd4064"
+    },
+    {
+      "case_id": "N-Q058",
+      "source": "HealthBench",
+      "source_item_id": "901d8f81-4a13-40b2-8431-d784b69c8f49",
+      "source_text_sha256": "95cadc5aae84d24c6606f93a978048e450a6c9dc57e4381262c8bc1a9a96adeb",
+      "benchmark_question_sha256": "6beb88d5d31c257a3e3054a5f190524ba6a63164ff1ea3e49f6f63bf25d45226"
+    },
+    {
+      "case_id": "N-Q059",
+      "source": "HealthBench",
+      "source_item_id": "3e2283a5-81de-4fac-a1d3-60bcc2762eb9",
+      "source_text_sha256": "b78fff56a11d4cf5c97000c25c70c4200c8acff73df4cbdb7946a44e6b75f558",
+      "benchmark_question_sha256": "75db186c118d094e3a0fdc355e30e61fa188329202b5a46060e2e6966384a509"
+    },
+    {
+      "case_id": "N-Q060",
+      "source": "HealthBench",
+      "source_item_id": "b71450d6-2347-4626-9ed7-891029502730",
+      "source_text_sha256": "bb43d4e6f17e321c66cd292d08a2a415d447dc37c4d15aa1d64789904b23d1ba",
+      "benchmark_question_sha256": "86b7c4df15cd0c6952fae5d95131cd4cddff4839fbc991e14213ba5d5514630f"
+    },
+    {
+      "case_id": "N-Q063",
+      "source": "K-QA",
+      "source_item_id": "110",
+      "source_text_sha256": "221b0644c3dbfd115060e7898ba5b7c9d57a81e8961cd4e2ad46eebc39806bfe",
+      "benchmark_question_sha256": "6bd749b252ce5aaacd6dcf8d0c65e96bfa33ec7c60a4653ae214d2085c894c52"
+    },
+    {
+      "case_id": "N-Q068",
+      "source": "K-QA",
+      "source_item_id": "579",
+      "source_text_sha256": "f2e9e5fcfd4871a3b957e46c3222d5b9bbb49e30f2cce7bfe7e648861f6ab164",
+      "benchmark_question_sha256": "2b81c2a94c4c8f90915a2b8467b7c5782b38cac20a43fde88e27af398cf909f5"
+    },
+    {
+      "case_id": "N-Q072",
+      "source": "K-QA",
+      "source_item_id": "1054",
+      "source_text_sha256": "a79328e90d82768cdd30dcf17efe505ab47f32aeb5581f43cf48a89e52bdb4c3",
+      "benchmark_question_sha256": "b1abe6b179bb246ca2fd65d0902a5c2b3cfa9003e685a5c8370494bd0558f95a"
+    },
+    {
+      "case_id": "N-Q073",
+      "source": "K-QA",
+      "source_item_id": "1083",
+      "source_text_sha256": "e9d25fcad78f0923d8caf32ddf7c96ece73d8f89b65549c3f9b405be7868649e",
+      "benchmark_question_sha256": "196b93be95ad312d3421d8260bf6a18c7e1c90b6c4089c34c5499887af23d4fe"
+    },
+    {
+      "case_id": "N-Q086",
+      "source": "ExpertQA",
+      "source_item_id": "1607",
+      "source_text_sha256": "520257e90ccb86a6874cd5d12aab55462fbeba75ca69c66f7695acebba23acba",
+      "benchmark_question_sha256": "7e2d2cf2b74ba223999d68e545103239875096f3332a1038195338d293eff801"
+    },
+    {
+      "case_id": "N-Q087",
+      "source": "HealthBench",
+      "source_item_id": "fff04e7b-bead-4a4a-b68a-10944f6468ed",
+      "source_text_sha256": "12987dfd43ad77b6e5051e639936c0378049e0aa656825d93830ddfff4dee272",
+      "benchmark_question_sha256": "b555764b7ab59ef3f46ac2d6d351041b048b8cc4d53e73f23fd131cbce61386f"
+    },
+    {
+      "case_id": "N-Q088",
+      "source": "HealthBench",
+      "source_item_id": "db17ae41-bec2-4597-aea9-a6da7507b123",
+      "source_text_sha256": "bb3ed7553bb0a4ea93d3def8eb3b8a59d304b6443d7767973617b33299f8e655",
+      "benchmark_question_sha256": "fd71e593a487629f2fbe424cff286466713565bba756a8aeececa85ee9974e3a"
+    },
+    {
+      "case_id": "N-Q089",
+      "source": "HealthBench",
+      "source_item_id": "b4e19b33-74c0-44c2-9a91-d9115e267bf8",
+      "source_text_sha256": "9f2581b1d2f270c572938d9cf0af83ad49116de5beeb7bad54f35c23ae0ae24e",
+      "benchmark_question_sha256": "cd03db4adca2916c1d8f2427cf17360de84a27c72bc9269ec3244a9afdbb863d"
+    },
+    {
+      "case_id": "N-Q090",
+      "source": "HealthBench",
+      "source_item_id": "9db29a6f-ab63-4c16-8876-c15390f52205",
+      "source_text_sha256": "5b3b2cf0122db6d3591b56cb2cbb7ec0bd13e1e24889953947893b5b91f0e2fa",
+      "benchmark_question_sha256": "82f8bc2703c15f993a21dc8fe8017fb38e7e62a2d2b753d4f8b380c128994497"
+    },
+    {
+      "case_id": "N-Q091",
+      "source": "HealthBench",
+      "source_item_id": "b4c38eb9-efcf-42e3-9429-dcd79c27199e",
+      "source_text_sha256": "a008b5bf7e23d6dc6b4f21e54a4e60f09e0335f3fdb8dcbd3f26785549c768bc",
+      "benchmark_question_sha256": "403f80c09afc598f7fd2c332ce5670f11180d4e36317747368906a35744e1b4a"
+    },
+    {
+      "case_id": "N-Q092",
+      "source": "K-QA",
+      "source_item_id": "8",
+      "source_text_sha256": "4d09f10719b2cba68520e398c7528850d0582dcf6fae91157f11b0bb5b626d73",
+      "benchmark_question_sha256": "b6e9e8324d6708e00e6da8ce35ed91c1965f08a1514d6af055e417241e8a1043"
+    },
+    {
+      "case_id": "N-Q095",
+      "source": "K-QA",
+      "source_item_id": "97",
+      "source_text_sha256": "4290c330aba4df715ec043ffcc678a056d975351065e719f69b1bdbd83d04596",
+      "benchmark_question_sha256": "4b904596109348e9d88f498e0a8e3dcadddd3bc79a398586fa7699dd2baf1c59"
+    },
+    {
+      "case_id": "N-Q096",
+      "source": "K-QA",
+      "source_item_id": "165",
+      "source_text_sha256": "c72dbd3899acb16d070ade6816cce1e03d850d60e4d37192e485d5731ecab8b8",
+      "benchmark_question_sha256": "d64f31b67eb77b2322c654f2cab3998b163c8859e4f3e19b551ab99b5738c84b"
+    },
+    {
+      "case_id": "N-Q097",
+      "source": "K-QA",
+      "source_item_id": "283",
+      "source_text_sha256": "5e0322f7f84dbe3c5f4b31257df6e06552b65c904f9b85fe91f6ae63d864bfa3",
+      "benchmark_question_sha256": "dfc410f9566b206c13ca42456cc86bf65cb2233c9a6b9765ecec211e98611ce2"
+    },
+    {
+      "case_id": "N-Q098",
+      "source": "K-QA",
+      "source_item_id": "320",
+      "source_text_sha256": "c5e219a7d4dbdc9dee26abb17c010e7fa7a842dfb4d461a3062cf3e153399e12",
+      "benchmark_question_sha256": "fbcbc4c8487259bbed240852a79f4854d020d999b1bd1134105fb9c89d353301"
+    },
+    {
+      "case_id": "N-Q099",
+      "source": "K-QA",
+      "source_item_id": "343",
+      "source_text_sha256": "56854fc56c5d04610b6154d6b0c6a0296721aab5a0c936eab7e5c36b4be426af",
+      "benchmark_question_sha256": "d5ce6d4d014e34651f86e2721420b021f2dd2212e8d7b1137209d6854b125b4d"
+    },
+    {
+      "case_id": "N-Q100",
+      "source": "K-QA",
+      "source_item_id": "355",
+      "source_text_sha256": "ecb582fdb81e16fa895716eb0dd202d4374baca7b37718c372ae2596f72a0dc6",
+      "benchmark_question_sha256": "707140e190e7dacdc398399ce60f2b66f54aa9a60cb522d6b9e60ab8aa476a1f"
+    },
+    {
+      "case_id": "N-Q103",
+      "source": "K-QA",
+      "source_item_id": "502",
+      "source_text_sha256": "9196a1bc14047895eca3e4da3a2ce69ccc5c12c1a126b5a1ef60db7547b20ecf",
+      "benchmark_question_sha256": "f6e29df577c9ef4954118304661e91ca8b2a90f6745b101ab8b8cacbaaa702ea"
+    },
+    {
+      "case_id": "N-Q105",
+      "source": "K-QA",
+      "source_item_id": "654",
+      "source_text_sha256": "4044a718372e18903d6d2940788c15fcc5c2a6871fdc0ec35bf2954b8a285ca0",
+      "benchmark_question_sha256": "b164b2a27312f2ce561cb8df49e4549af674f68c2d718465d4e29905986698e7"
+    },
+    {
+      "case_id": "N-Q106",
+      "source": "K-QA",
+      "source_item_id": "702",
+      "source_text_sha256": "2a6e367a6724c770be9c5627a3ae9bb1b9aab5b1ca124c32a341b419b324fa55",
+      "benchmark_question_sha256": "487f0db1418e923c67977144e4779b6886f640b0a7ae3c3af9777500bbf2fd69"
+    },
+    {
+      "case_id": "N-Q108",
+      "source": "K-QA",
+      "source_item_id": "830",
+      "source_text_sha256": "6eaea4b2cfa5fac0232b80c3899990c2506fa89988c66dd5c1d9e3a00e235509",
+      "benchmark_question_sha256": "3ed0b12e755ee189245f0b225d7656e8d23aaf85a4146f277d0156d839d87ce0"
+    },
+    {
+      "case_id": "N-Q112",
+      "source": "K-QA",
+      "source_item_id": "979",
+      "source_text_sha256": "0c52a9ac77cb8397e6c6211427edbe250c71d4d3ea13cadb33b4c6a427c0d106",
+      "benchmark_question_sha256": "071d96f3b94d9f630f4795d2fed2fb6da3247688df16e046f3e7d0a56f29dda2"
+    },
+    {
+      "case_id": "N-Q118",
+      "source": "K-QA",
+      "source_item_id": "1089",
+      "source_text_sha256": "18ffb4709e449f256ae67c52f5aaa9977b16097e4b1ed89a6b1bfa4c459e5bf1",
+      "benchmark_question_sha256": "54c32b0e915b8ec02dc8e2384b4d4d6188574689b10330c73d1294f38789bdc5"
+    },
+    {
+      "case_id": "N-Q126",
+      "source": "MeQSum",
+      "source_item_id": "1-134508395.xml.txt",
+      "source_text_sha256": "5eaa82e66b44da77389257aa498e3571eb8e358415e8b19fd92e206f9fab71fe",
+      "benchmark_question_sha256": "ac322a195abd3e3979329dfa5c6fc03ffac9d3a7a9ebedbe042fcd07c5033a21"
+    },
+    {
+      "case_id": "N-Q127",
+      "source": "MeQSum",
+      "source_item_id": "1-121846105.xml.txt",
+      "source_text_sha256": "750ad2b41adb5a538a864c47f56f6b2203443c4bacb8f3f0c2f3b754ee1d7d0b",
+      "benchmark_question_sha256": "8afb729f609962dee1821e9020b1cf4e8191895a6b396d973703b833b70499ce"
+    },
+    {
+      "case_id": "N-Q128",
+      "source": "MeQSum",
+      "source_item_id": "10035.xml.txt",
+      "source_text_sha256": "7c9182f66dcf95c91b7480c3bb2e64366bf368c4ef1fb0b7e592621ec696000a",
+      "benchmark_question_sha256": "e122d62ae7eaa898717278dbdde8c592992a9d20b0a1554856020fccf814ab29"
+    },
+    {
+      "case_id": "N-Q130",
+      "source": "MeQSum",
+      "source_item_id": "1-118275325.xml.txt",
+      "source_text_sha256": "7ebe316ba1bc5cf759e45099a510a3f1361b409665c44c74e656c026dbfabdfa",
+      "benchmark_question_sha256": "70ad1f59240072139354dba9fa1911dcd77589fe943ccc2eb3847fdef4bcbc2b"
+    },
+    {
+      "case_id": "N-Q131",
+      "source": "MeQSum",
+      "source_item_id": "1-133380235.xml.txt",
+      "source_text_sha256": "c578eb6700aacfe7b2a066eb70fe2fb9bbb3f7dd9348bafbd380b7358a24c699",
+      "benchmark_question_sha256": "f7279cf9b53bb324e81db9d412da242aca6d7033183440a33fdf6778f952796b"
+    },
+    {
+      "case_id": "N-Q133",
+      "source": "MedicationQA",
+      "source_item_id": "24",
+      "source_text_sha256": "c5dc055ac995d06324ad368b06101a6732aefeab4800dc836e72213fafa2a8b5",
+      "benchmark_question_sha256": "7eddeee27af60badbb48c18bfb66f9d2784ad09cbfbdd1918cc8c86a5ad490f0"
+    },
+    {
+      "case_id": "N-Q134",
+      "source": "MedicationQA",
+      "source_item_id": "44",
+      "source_text_sha256": "03df358cb624258c4b8b6185f3f4e9d9ee7269ce43a0020775af0a160e117eb6",
+      "benchmark_question_sha256": "6c52a4139431618af6e96f17fa279ab976a96e81297dcc89fa91a9f9947d537b"
+    },
+    {
+      "case_id": "N-Q136",
+      "source": "MedicationQA",
+      "source_item_id": "79",
+      "source_text_sha256": "409931aa19c875e02bafee08545dd8ff0c7cb0d25bb8ce43b5cf54f35d91e904",
+      "benchmark_question_sha256": "cba8afc45344fa03a0e617a77004eb8e9946e6e74a013b2ad3b37b66820aff60"
+    },
+    {
+      "case_id": "N-Q137",
+      "source": "MedicationQA",
+      "source_item_id": "99",
+      "source_text_sha256": "56736d5eccdb4b4ad50479f859054448c12f49149ed9dedd7a4d95f3c3ce4fb3",
+      "benchmark_question_sha256": "90137ae43a43930384fd117c53058b3c3709d0b6981f3e478a80b1feaa57a461"
+    },
+    {
+      "case_id": "N-Q142",
+      "source": "MedicationQA",
+      "source_item_id": "186",
+      "source_text_sha256": "418bb6a38dbc75606db20f4c949174f8f0d7e3e018d0ce6b29b01fccbf63bcad",
+      "benchmark_question_sha256": "03f9b93c012a106fe30b9e7770b25edd8f11c0d289b469f507c56294925624a3"
+    },
+    {
+      "case_id": "N-Q152",
+      "source": "MedicationQA",
+      "source_item_id": "593",
+      "source_text_sha256": "afb46e66549e58a07d0dc02f7b3926d9634ffdd39fc0992c0fa84538e5a7bae3",
+      "benchmark_question_sha256": "04f5815b8f05498cc47bda19c92cbbebe3d3176baea6d6caff872bf17ffb2ab6"
+    },
+    {
+      "case_id": "N-Q157",
+      "source": "MedicationQA",
+      "source_item_id": "667",
+      "source_text_sha256": "57c5e4f69ab2d3b44eecae8bcb59f13d072c1ae98144b8e6901fe76787a647c1",
+      "benchmark_question_sha256": "7c2f8418faa5e3a407ebf09b8dc6f2277b81b98aeb75c46f6d13adde45a257d3"
+    }
+  ]
+}
