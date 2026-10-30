@@ -1,0 +1,231 @@
+case_id,gold,category,source_group
+case_154,NO,Rolling 24-Hour Total,reddit_145
+case_167,NO,Rolling 24-Hour Total,reddit_145
+case_150,NO,Rolling 24-Hour Total,reddit_145
+case_141,AMBIGUOUS,Multiple Medications,reddit_145
+case_008,NO,Rolling 24-Hour Total,reddit_145
+case_202,NO,Multiple Medications,reddit_145
+case_121,NO,Multiple Medications,reddit_145
+case_131,YES,Dose Safety and Side Effects,reddit_145
+case_195,NO,Dose Safety and Side Effects,reddit_145
+case_099,YES,Multiple Medications,reddit_145
+case_211,YES,Multiple Medications,reddit_145
+case_060,NO,Multiple Medications,reddit_145
+case_087,NO,Dose Safety and Side Effects,reddit_145
+case_075,NO,Multiple Medications,reddit_145
+case_199,NO,Multiple Medications,reddit_145
+case_187,YES,Repeated Dosing,reddit_145
+case_204,NO,Multiple Medications,reddit_145
+case_177,AMBIGUOUS,Repeated Dosing,reddit_145
+case_119,NO,Time Between Doses,reddit_145
+case_055,YES,Rolling 24-Hour Total,reddit_145
+case_043,YES,Missing Dosing Information,reddit_145
+case_041,NO,Dose Safety and Side Effects,reddit_145
+case_023,AMBIGUOUS,Multiple Medications,reddit_145
+case_180,NO,Time Between Doses,reddit_145
+case_062,YES,Repeated Dosing,reddit_145
+case_179,NO,Time Between Doses,reddit_145
+case_149,YES,Multiple Medications,reddit_145
+case_035,NO,Dose Safety and Side Effects,reddit_145
+case_079,NO,Rolling 24-Hour Total,reddit_145
+case_056,NO,Time Between Doses,reddit_145
+case_161,NO,Missing Dosing Information,reddit_145
+case_216,NO,Multiple Medications,reddit_145
+case_214,AMBIGUOUS,Repeated Dosing,reddit_145
+case_139,YES,Multiple Medications,reddit_145
+case_061,NO,Dose Safety and Side Effects,reddit_145
+case_159,YES,Repeated Dosing,reddit_145
+case_222,NO,Multiple Medications,reddit_145
+case_126,YES,Multiple Medications,reddit_145
+case_002,NO,Dose Safety and Side Effects,reddit_145
+case_021,NO,Dose Safety and Side Effects,reddit_145
+case_206,NO,Dose Safety and Side Effects,reddit_145
+case_193,NO,Dose Safety and Side Effects,reddit_145
+case_101,YES,Repeated Dosing,reddit_145
+case_071,NO,Multiple Medications,reddit_145
+case_104,NO,Dose Safety and Side Effects,reddit_145
+case_110,NO,Dose Safety and Side Effects,reddit_145
+case_076,NO,Dose Safety and Side Effects,reddit_145
+case_188,YES,Missing Dosing Information,reddit_145
+case_170,NO,Rolling 24-Hour Total,reddit_145
+case_044,YES,Repeated Dosing,reddit_145
+case_030,AMBIGUOUS,Dose Safety and Side Effects,reddit_145
+case_065,NO,Multiple Medications,reddit_145
+case_026,YES,Dose Safety and Side Effects,reddit_145
+case_018,YES,Multiple Medications,reddit_145
+case_047,YES,Multiple Medications,reddit_145
+case_200,NO,Multiple Medications,reddit_145
+case_194,YES,Dose Safety and Side Effects,reddit_145
+case_096,YES,Rolling 24-Hour Total,reddit_145
+case_034,YES,Multiple Medications,reddit_145
+case_004,NO,Repeated Dosing,reddit_145
+case_122,AMBIGUOUS,Dose Safety and Side Effects,reddit_145
+case_050,YES,Repeated Dosing,reddit_145
+case_082,YES,Multiple Medications,reddit_145
+case_133,YES,Repeated Dosing,reddit_145
+case_118,AMBIGUOUS,Multiple Medications,reddit_145
+case_132,YES,Dose Safety and Side Effects,reddit_145
+case_151,AMBIGUOUS,Dose Safety and Side Effects,reddit_145
+case_011,YES,Multiple Medications,reddit_145
+case_227,YES,Multiple Medications,reddit_145
+case_013,AMBIGUOUS,Missing Dosing Information,new_85
+case_006,AMBIGUOUS,Missing Dosing Information,new_85
+case_146,AMBIGUOUS,Missing Dosing Information,new_85
+case_229,AMBIGUOUS,Dose Safety and Side Effects,new_85
+case_070,NO,Time Between Doses,new_85
+case_084,NO,Rolling 24-Hour Total,new_85
+case_077,AMBIGUOUS,Missing Dosing Information,new_85
+case_022,AMBIGUOUS,Missing Dosing Information,new_85
+case_215,NO,Missing Dosing Information,new_85
+case_171,NO,Repeated Dosing,new_85
+case_073,NO,Time Between Doses,new_85
+case_057,NO,Dose Safety and Side Effects,new_85
+case_166,AMBIGUOUS,Dose Safety and Side Effects,new_85
+case_092,NO,Dose Safety and Side Effects,new_85
+case_016,AMBIGUOUS,Missing Dosing Information,new_85
+case_108,NO,Time Between Doses,new_85
+case_164,NO,Dose Safety and Side Effects,new_85
+case_111,NO,Time Between Doses,new_85
+case_192,NO,Repeated Dosing,new_85
+case_024,NO,Time Between Doses,new_85
+case_053,NO,Dose Safety and Side Effects,new_85
+case_220,NO,Dose Safety and Side Effects,new_85
+case_097,AMBIGUOUS,Missing Dosing Information,new_85
+case_054,NO,Dose Safety and Side Effects,new_85
+case_067,NO,Dose Safety and Side Effects,new_85
+case_175,AMBIGUOUS,Missing Dosing Information,new_85
+case_025,AMBIGUOUS,Missing Dosing Information,new_85
+case_051,NO,Time Between Doses,new_85
+case_063,YES,Dose Safety and Side Effects,new_85
+case_137,NO,Time Between Doses,new_85
+case_144,AMBIGUOUS,Missing Dosing Information,new_85
+case_213,NO,Time Between Doses,new_85
+case_039,NO,Time Between Doses,new_85
+case_003,NO,Dose Safety and Side Effects,new_85
+case_089,AMBIGUOUS,Missing Dosing Information,new_85
+case_128,AMBIGUOUS,Missing Dosing Information,new_85
+case_221,AMBIGUOUS,Missing Dosing Information,new_85
+case_156,YES,Dose Safety and Side Effects,new_85
+case_207,AMBIGUOUS,Missing Dosing Information,new_85
+case_091,AMBIGUOUS,Missing Dosing Information,new_85
+case_114,YES,Dose Safety and Side Effects,new_85
+case_103,AMBIGUOUS,Missing Dosing Information,new_85
+case_210,AMBIGUOUS,Missing Dosing Information,new_85
+case_152,NO,Dose Safety and Side Effects,new_85
+case_208,AMBIGUOUS,Missing Dosing Information,new_85
+case_107,AMBIGUOUS,Missing Dosing Information,new_85
+case_098,YES,Time Between Doses,new_85
+case_140,NO,Dose Safety and Side Effects,new_85
+case_069,YES,Time Between Doses,new_85
+case_094,YES,Time Between Doses,new_85
+case_201,YES,Multiple Medications,new_85
+case_173,YES,Time Between Doses,new_85
+case_028,AMBIGUOUS,Missing Dosing Information,new_85
+case_020,NO,Repeated Dosing,new_85
+case_009,NO,Dose Safety and Side Effects,new_85
+case_088,YES,Time Between Doses,new_85
+case_059,YES,Dose Safety and Side Effects,new_85
+case_015,AMBIGUOUS,Dose Safety and Side Effects,new_85
+case_165,AMBIGUOUS,Dose Safety and Side Effects,new_85
+case_032,NO,Dose Safety and Side Effects,new_85
+case_046,YES,Dose Safety and Side Effects,new_85
+case_136,NO,Time Between Doses,new_85
+case_134,AMBIGUOUS,Missing Dosing Information,new_85
+case_120,NO,Dose Safety and Side Effects,new_85
+case_185,AMBIGUOUS,Missing Dosing Information,new_85
+case_205,YES,Dose Safety and Side Effects,new_85
+case_168,AMBIGUOUS,Missing Dosing Information,new_85
+case_226,NO,Dose Safety and Side Effects,new_85
+case_183,AMBIGUOUS,Missing Dosing Information,new_85
+case_086,YES,Time Between Doses,new_85
+case_093,YES,Time Between Doses,new_85
+case_037,NO,Dose Safety and Side Effects,new_85
+case_148,NO,Time Between Doses,new_85
+case_153,NO,Time Between Doses,new_85
+case_158,NO,Dose Safety and Side Effects,new_85
+case_190,YES,Time Between Doses,new_85
+case_189,NO,Dose Safety and Side Effects,new_85
+case_142,NO,Missing Dosing Information,new_85
+case_143,YES,Time Between Doses,new_85
+case_178,NO,Dose Safety and Side Effects,new_85
+case_036,AMBIGUOUS,Dose Safety and Side Effects,new_85
+case_012,NO,Dose Safety and Side Effects,new_85
+case_127,YES,Time Between Doses,new_85
+case_191,NO,Dose Safety and Side Effects,new_85
+case_230,NO,Dose Safety and Side Effects,new_85
+case_027,NO,Time Between Doses,reddit_145
+case_040,YES,Repeated Dosing,reddit_145
+case_014,NO,Dose Safety and Side Effects,reddit_145
+case_224,NO,Missing Dosing Information,reddit_145
+case_048,NO,Multiple Medications,reddit_145
+case_135,NO,Missing Dosing Information,reddit_145
+case_029,NO,Dose Safety and Side Effects,reddit_145
+case_019,YES,Multiple Medications,reddit_145
+case_052,YES,Repeated Dosing,reddit_145
+case_109,NO,Multiple Medications,reddit_145
+case_038,NO,Multiple Medications,reddit_145
+case_095,NO,Multiple Medications,reddit_145
+case_072,NO,Multiple Medications,reddit_145
+case_068,AMBIGUOUS,Repeated Dosing,reddit_145
+case_209,NO,Dose Safety and Side Effects,reddit_145
+case_083,NO,Rolling 24-Hour Total,reddit_145
+case_217,NO,Repeated Dosing,reddit_145
+case_113,AMBIGUOUS,Missing Dosing Information,reddit_145
+case_115,AMBIGUOUS,Repeated Dosing,reddit_145
+case_106,NO,Repeated Dosing,reddit_145
+case_155,NO,Dose Safety and Side Effects,reddit_145
+case_163,YES,Repeated Dosing,reddit_145
+case_031,YES,Multiple Medications,reddit_145
+case_102,NO,Dose Safety and Side Effects,reddit_145
+case_117,NO,Time Between Doses,reddit_145
+case_064,YES,Rolling 24-Hour Total,reddit_145
+case_058,YES,Dose Safety and Side Effects,reddit_145
+case_228,AMBIGUOUS,Missing Dosing Information,reddit_145
+case_130,YES,Multiple Medications,reddit_145
+case_218,YES,Repeated Dosing,reddit_145
+case_184,NO,Dose Safety and Side Effects,reddit_145
+case_203,YES,Multiple Medications,reddit_145
+case_017,NO,Dose Safety and Side Effects,reddit_145
+case_223,NO,Repeated Dosing,reddit_145
+case_010,NO,Repeated Dosing,reddit_145
+case_085,NO,Multiple Medications,reddit_145
+case_074,NO,Repeated Dosing,reddit_145
+case_116,YES,Multiple Medications,reddit_145
+case_147,YES,Dose Safety and Side Effects,reddit_145
+case_100,YES,Multiple Medications,reddit_145
+case_145,NO,Dose Safety and Side Effects,reddit_145
+case_123,YES,Repeated Dosing,reddit_145
+case_225,NO,Time Between Doses,reddit_145
+case_033,NO,Missing Dosing Information,reddit_145
+case_045,NO,Missing Dosing Information,reddit_145
+case_080,NO,Missing Dosing Information,reddit_145
+case_172,YES,Multiple Medications,reddit_145
+case_198,AMBIGUOUS,Time Between Doses,reddit_145
+case_081,NO,Multiple Medications,reddit_145
+case_219,NO,Multiple Medications,reddit_145
+case_049,NO,Rolling 24-Hour Total,reddit_145
+case_182,NO,Rolling 24-Hour Total,reddit_145
+case_176,NO,Repeated Dosing,reddit_145
+case_090,NO,Multiple Medications,reddit_145
+case_001,NO,Multiple Medications,reddit_145
+case_157,YES,Multiple Medications,reddit_145
+case_066,NO,Time Between Doses,reddit_145
+case_196,NO,Multiple Medications,reddit_145
+case_129,YES,Multiple Medications,reddit_145
+case_160,NO,Repeated Dosing,reddit_145
+case_105,YES,Repeated Dosing,reddit_145
+case_124,YES,Multiple Medications,reddit_145
+case_162,NO,Dose Safety and Side Effects,reddit_145
+case_125,YES,Repeated Dosing,reddit_145
+case_007,YES,Multiple Medications,reddit_145
+case_197,YES,Dose Safety and Side Effects,reddit_145
+case_112,YES,Dose Safety and Side Effects,reddit_145
+case_169,YES,Repeated Dosing,reddit_145
+case_005,YES,Multiple Medications,reddit_145
+case_138,YES,Repeated Dosing,reddit_145
+case_174,YES,Multiple Medications,reddit_145
+case_186,NO,Dose Safety and Side Effects,reddit_145
+case_212,YES,Dose Safety and Side Effects,reddit_145
+case_078,YES,Dose Safety and Side Effects,reddit_145
+case_042,YES,Repeated Dosing,reddit_145
+case_181,YES,Dose Safety and Side Effects,reddit_145
