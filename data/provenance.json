@@ -38,7 +38,7 @@
     "MeQSum": "File field",
     "ExpertQA": "Zero-based row in data/r2_compiled_anon.jsonl"
   },
-  "hash_notes": "Source text hashes use UTF-8. HealthBench hashes use json.dumps(prompt, ensure_ascii=False, sort_keys=True). Benchmark hashes use unchanged question text.",
+  "hash_notes": "Source text hashes use UTF-8. HealthBench hashes use json.dumps(prompt, ensure_ascii=False, sort_keys=True). Benchmark hashes use unchanged question text. Author-written questions have no source text, so they carry a benchmark question hash only.",
   "records": [
     {
       "case_id": "N-Q001",
@@ -389,6 +389,251 @@
       "source_item_id": "667",
       "source_text_sha256": "57c5e4f69ab2d3b44eecae8bcb59f13d072c1ae98144b8e6901fe76787a647c1",
       "benchmark_question_sha256": "7c2f8418faa5e3a407ebf09b8dc6f2277b81b98aeb75c46f6d13adde45a257d3"
+    },
+    {
+      "case_id": "N-MAN-01",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "29c159a0ba593e201f82cbe31fd65ae38e069ded1d419a8892196e8940f6bb57"
+    },
+    {
+      "case_id": "N-MAN-02",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "49a7b61aeeadf66d7f4b50cdd7cc81deb7f49a44ab19c95bff07133552c70c66"
+    },
+    {
+      "case_id": "N-MAN-03",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "a82301ef4c0269dae558069f1892032f4fdbb9a97bf21cd908aba89707b3efc5"
+    },
+    {
+      "case_id": "N-MAN-04",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "a2340234c30d1dd3eec260677326264a5e82f0551bf15ee7eec88853cf6a8510"
+    },
+    {
+      "case_id": "N-MAN-05",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "fc2bace3cc35e6d41b1e06f0cf92fed27359106914c38dd05c7f656bfd503df4"
+    },
+    {
+      "case_id": "N-MAN-06",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "c5584894b94bf5047b9d5327044ed309ae60b57fbc4acef03b18de8db48a37d2"
+    },
+    {
+      "case_id": "N-MAN-07",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "53941b1fa098c8491719cc0e284f15c52d8f06af1618d5da5994aa3333d8671c"
+    },
+    {
+      "case_id": "N-MAN-08",
+      "source": "Author-written",
+      "source_item_id": null,
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "4e25f8168947cdd58adb629d4bafdf883725cdb371659cdf5f71747a46285d75"
+    },
+    {
+      "case_id": "N-Q023",
+      "source": "MEDIQA2019",
+      "source_item_id": "QA-TestSet:132",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "f32f80b1e21fe4cb44d238b13df2f2ec6fbe6fc28019028ab16da2e8bba306e1"
+    },
+    {
+      "case_id": "N-Q024",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "699",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "042e690cd19504387968236a4c726f2a8b021a6b06b0fbf4e498aef55366929d"
+    },
+    {
+      "case_id": "N-Q025",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "1640",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "2a4bf0e8d6f3a3b0fcf6e72a00784a08781f8fd123f25305c9853b7c428c8527"
+    },
+    {
+      "case_id": "N-Q026",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "8845",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "c682526a8040970513e55d1d978533ce78830b30f83d0741361dd913889517ef"
+    },
+    {
+      "case_id": "N-Q027",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "11992",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "1bfe8d30dd17a28ecfa91ff2a7f95b703c846f408ad393be7120edb90b05d0f7"
+    },
+    {
+      "case_id": "N-Q028",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "20138",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "2aebe0548dfe13f93ba2400ffc462a9594492a053dbbc0249168a0b30648bed7"
+    },
+    {
+      "case_id": "N-Q029",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "21462",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "e3aadfe6de94d350b62af62ea0d5da0599fcc94ea1cc9feabde7353f4c4af560"
+    },
+    {
+      "case_id": "N-Q031",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "18509",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "dee4b89e29034eb28370586326bac7b5eb8144cac053c082da3807ca82c5b14b"
+    },
+    {
+      "case_id": "N-Q035",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0001",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "21c2e18f1cf43ce327bd954496ae89efa93ce260d40468a60be7960ca0fb256f"
+    },
+    {
+      "case_id": "N-Q036",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0016",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "78924f56f7ca346054c2c8ddb4606ee8411a3019f6d6ea3fcdb3953b5a7e153c"
+    },
+    {
+      "case_id": "N-Q038",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0002",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "b87278b97471dfde2b56a9fcfb864a8028ca3bd808b10c2464fe4e3635563166"
+    },
+    {
+      "case_id": "N-Q039",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0003",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "8ad675edce184966088d981263b64b212d92ec42824fb2d2d8e4b789130cca6f"
+    },
+    {
+      "case_id": "N-Q040",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0004",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "20e0e5dc610e67fd99026d19ae8cbd93f44962eb54cdc46161b976fc95f4a342"
+    },
+    {
+      "case_id": "N-Q041",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0007",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "3b453ce7dab0c25a511e2c03cb81f356ab7e5c83bc6c294335f26806171a52a4"
+    },
+    {
+      "case_id": "N-Q043",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0359",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "d62a65aaf03d0f6669b3e801edbbb70e8ea33b1ea08fc0ee0f2c6e6aeada4e02"
+    },
+    {
+      "case_id": "N-Q044",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0358",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "b3b233095b43368f8c3c3897b67acd13e13730ad76b824dd7544cfe7a52b6790"
+    },
+    {
+      "case_id": "N-Q047",
+      "source": "smolified-MediMind",
+      "source_item_id": "675",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "d3204dd4d68d4a370292e4cae05fde1b1e2e000c46a55dbffa292adfc730039d"
+    },
+    {
+      "case_id": "N-Q048",
+      "source": "AfriMed-QA v2",
+      "source_item_id": "8595bbb4cd86",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "67ea01149f8102f406fc9a2b3b057ce3c51dfc82cc3a1e9906e978ee4ddc5b5d"
+    },
+    {
+      "case_id": "N-Q050",
+      "source": "AfriMed-QA v2",
+      "source_item_id": "286140f60452",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "21111c80462ee9d2b55971106dcbfe50b6ccc1ed9a192708af1a0f538abe4c77"
+    },
+    {
+      "case_id": "N-Q075",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "21258",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "6b3f102d848ef0358f6ca4323602b8057e6d5b63091743f0bca8504a73a66f56"
+    },
+    {
+      "case_id": "N-Q076",
+      "source": "Meddies Patient Safety",
+      "source_item_id": "22028",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "7ad4037bd19b9181bba6fa6b31cf90a96c719ecb989296012a99ef0c8ac99df7"
+    },
+    {
+      "case_id": "N-Q081",
+      "source": "PatientSafetyBench",
+      "source_item_id": "70",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "aef3bcd490c7fbbd6c642211858f4e1528517c82d32d868c1c2a38e1ca04d8e2"
+    },
+    {
+      "case_id": "N-Q083",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0012",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "7e73a6da35193d673d696d8221b6688dbac76bfbec8bc9a64c108f873a6e3de9"
+    },
+    {
+      "case_id": "N-Q084",
+      "source": "RxBench-SOL",
+      "source_item_id": "rxbench-sol-v08-0357",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "9b2b7f42483ce400a613f3f0c78a1386f4e6c6a669c4dedd49066631729e0d10"
+    },
+    {
+      "case_id": "N-Q085",
+      "source": "AfriMed-QA v2",
+      "source_item_id": "5f2640d99e44",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "129d8d86b575f9da49a70908a06257f13a9fe1063e523f5e5f02011ed6834ec0"
+    },
+    {
+      "case_id": "N-Q125",
+      "source": "MEDIQA2019",
+      "source_item_id": "QA-TestSet:133",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "89f80d7dec63cdf4bc2a410d585ecc7db897ed93c8d66ba1f423a7ca41f85057"
+    },
+    {
+      "case_id": "N-Q159",
+      "source": "PatientSafetyBench",
+      "source_item_id": "12",
+      "source_text_sha256": null,
+      "benchmark_question_sha256": "f47817ca85339682a9444b3946216417d6cb44cc2f7b300efa728f2bb4e99633"
     }
   ]
 }

@@ -48,13 +48,17 @@ class ReleaseTests(unittest.TestCase):
         rows=json.loads((ROOT/'data/sample.json').read_text())
         provenance=json.loads((ROOT/'data/provenance.json').read_text())
         hashes={r['case_id']:r['benchmark_question_sha256'] for r in provenance['records']}
-        self.assertEqual(len(rows),50)
+        self.assertEqual(len(rows),85)
         self.assertEqual(Counter(r['source'] for r in rows),
-                         {'K-QA':19,'HealthBench':17,'MedicationQA':8,'MeQSum':5,'ExpertQA':1})
+                         {'K-QA':19,'HealthBench':17,'RxBench-SOL':10,
+                          'Meddies Patient Safety':9,'MedicationQA':8,'Author-written':8,
+                          'MeQSum':5,'AfriMed-QA v2':3,'MEDIQA2019':2,'PatientSafetyBench':2,
+                          'ExpertQA':1,'smolified-MediMind':1})
         for row in rows:
             self.assertEqual(hashlib.sha256(row['question'].encode()).hexdigest(),hashes[row['case_id']])
             self.assertEqual(self.gold[row['result_case_id']]['gold'],row['gold'])
-            self.assertIn(row['license'], ('MIT', 'CC-BY-4.0'))
+            self.assertIn(row['license'], ('MIT','CC-BY-4.0','CC-BY-NC-4.0',
+                                           'CDLA-Permissive-2.0','Apache-2.0'))
 
     def test_result_schema_has_no_text_or_original_ids(self):
         expected={'case_metadata.csv':{'case_id','gold','category','source_group'},
