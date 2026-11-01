@@ -6,6 +6,25 @@ DoseBench evaluates whether language models can answer adult acetaminophen and i
 
 📄 Paper: https://arxiv.org/abs/2606.04262
 
+## Key Finding
+
+Accuracy does not tell you whether a dosing model is safe.
+
+<p align="center">
+  <img src="teaser.png" width="820">
+</p>
+
+Across eight models and 230 consumer dosing questions:
+
+- Accuracy spans **17.4 points** (44.8%-62.2%), but the false approval rate spans **46.5 points** (14.0%-60.5%).
+- Qwen2.5-14B and GPT-4o-mini answer at almost the same accuracy (**53.0%** and **54.3%**) yet approve prohibited doses at **14.0%** and **48.2%**.
+- Every model is more consistent than it is correct (consistency 80.5%-93.6%), so these are stable decision thresholds, not sampling noise.
+- A checklist lowers false approvals for all eight models but lowers accuracy for four. GPT-5.4-mini reaches **0.0%** false approvals while its accuracy falls to **30.9%**, below the **32.2%** of always answering YES.
+
+> **Two models with the same accuracy can fail in opposite directions: one approves unsafe doses, the other refuses safe ones.**
+
+Reporting accuracy alone cannot separate a cautious model from a dangerous one.
+
 ## Reproduce the tables and figures
 
 Use Python 3.11 or newer. Open a terminal in this folder and run:
