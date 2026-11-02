@@ -66,5 +66,3 @@ Code uses the [MIT license](LICENSE). Dataset licenses and credits are listed in
   year={2026}
 }
 ```
-
-```
